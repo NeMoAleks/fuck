@@ -1,0 +1,257 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+
+/*------------------------------------------------*/
+
+body {
+    background: url(../img/Тетка.png) 0 0/100% auto no-repeat;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.secondcontainer {
+    flex: 1 1 auto;
+}
+
+.head__container {
+    display: flex;
+    max-width: 49%;
+    width: 49%;
+    height: 537px;
+    background: #ffffff;
+    box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.1);
+    margin-left: 7%;
+    margin-top: 25%;
+    margin-bottom: 10%;
+}
+
+.text__container {
+    max-width: 70%;
+    padding-left: 10%;
+    padding-top: 16%;
+    width: 70%;
+}
+
+.title {
+    font-size: 39px;
+    margin-bottom: 29px;
+}
+
+.orange {
+    color: #f78065;
+}
+
+.head__text {
+    font-size: 20px;
+    color: rgb(87, 87, 87);
+    margin-bottom: 29px;
+}
+
+.head__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px 12px 16px;
+    width: 250px;
+    height: 65px;
+    max-height: 65px;
+    background: url(../img/icons/globe.png) left no-repeat;
+    background-color: rgba(247, 128, 101, 1);
+    padding: 15px;
+}
+
+.block {}
+
+.block_row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.block_img {}
+
+.making {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.block_row2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.block_row3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.block_row4 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.block_row5 {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 1200px) {
+    body {
+        padding: calc(20px+(50-20) * ((100vw - 320px) / (1200 - 320)));
+    }
+}
+
+.orang {
+    color: #F78065;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: Montserrat;
+}
+
+.easy {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    opacity: 0.5;
+    font-family: Montserrat;
+}
+
+.bold {
+    font-family: Merriweather;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.bold2 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    font-family: Merriweather;
+}
+
+.easy2 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: Montserrat;
+    opacity: 0.5;
+}
+
+.block_column5 p {
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.bold34 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 60px;
+    font-family: Merriweather;
+}
+
+.block_item33 {
+    display: flex;
+    flex-direction: column;
+}
+
+.block_item p {
+    line-height: 24px;
+}
+
+.secondcontainer {
+    flex: 1 1 auto;
+}
